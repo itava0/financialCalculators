@@ -14,16 +14,13 @@ public class FinancialCalculator {
 
          switch (userInput) {
              case 1:
-                 MortgageCalculator mortgageCalculator = new MortgageCalculator();
-                 mortgageCalculator.calculate();
+                 MortgageCalculator.calculate();
                  break;
              case 2:
-                 FutureValueCalculator cd = new FutureValueCalculator();
-                 cd.calculate();
+                 FutureValueCalculator.calculate();
                  break;
              case 3:
-                 OrdinaryAnnuity ordinaryAnnuity = new OrdinaryAnnuity();
-                 ordinaryAnnuity.calculate();
+                 OrdinaryAnnuity.calculate();
                  break;
 
              default:
